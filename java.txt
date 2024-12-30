@@ -1,0 +1,58 @@
+"Ecrire une fonction qui inverse une chaine donnee"
+    function reverseString(str){
+        return str.split("").reverse().join("");
+        console.log(reserveString("hello word"));
+    }
+
+"Creer une fonction qui compte le nombre de caracteres dans une chaine"
+    const str = 'phrase' ;
+    console.log('$.{str} ${str.length}');
+
+"Mettre la premiere lettre d'un mot en majiscule"
+    function strUcFirst(a){
+        return(a+'').chart(o).toUppercase()+(a+'');
+
+    }
+
+"Ecrire des fonctions pour trouver les valeurs max et min dans un tableau de variable"
+    function minMax(arr){
+        return[Math.min(...arr), Math.max(...arr)]
+    }
+
+"Creer une fonction qui calcule la somme de tous les elements d'un tableau"
+    const arr[1,2,3,4,0];
+    let sum = 0;
+    for(let i=0; i<arr.length; i++){
+        sum += arr[i];
+    }
+    console.log(sum);
+
+"Calculer la factorielle d'un nombre donne"
+    function factorial(x){
+        if(x==1)
+        return x;
+        return x*factorial(x-1);
+    }
+
+"Nombre premier"
+    function nbrPremier(nbr){
+        for(var i = 2; i < nbr; i++)
+            if(nbr%i===0) return false;
+            return nbr > 1; 
+    }
+    console.log(nbrPremier(2));
+
+"filtre les elements d'un tableau"
+    let numbers = [1,2,3,4,5,6,7,8,9,10]
+    let evenNumbers = numbers.filter(function(number){
+        return number%2===0
+    })
+    console.log(evenNumbers)
+
+    "Suite de Fibonacci"
+        function fibonacci(nbr){
+            if(nbr < 2){
+                return nbr;
+            }
+        return fibonacci(nbr-1) + fibonacci(nbre-2);
+        }
